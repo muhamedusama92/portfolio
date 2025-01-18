@@ -9,8 +9,8 @@ body {
 header {
     background: #0073e6;
     color: #fff;
-    padding: 20px 0;
     text-align: center;
+    padding: 20px;
 }
 
 header h1 {
@@ -21,6 +21,12 @@ header h1 {
 header p {
     margin: 5px 0 0;
     font-size: 1.2em;
+}
+
+.header-banner {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
 }
 
 nav {
@@ -50,14 +56,41 @@ nav ul li a {
     padding: 20px;
     margin: 20px;
     border-bottom: 1px solid #ccc;
+    text-align: center;
 }
 
 .section h2 {
     color: #0073e6;
 }
 
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
 .project {
     margin-bottom: 20px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.project-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.skills-list {
+    text-align: left;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 footer {
